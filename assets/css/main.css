@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background: #FFF;
+box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    padding: 15px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+ul{
+    list-style-type: none;
+
+}
+.active{
+    font-weight: 700;
+}
+.container{
+    margin: auto;
+    width: calc(100% - 120px);
+   
+}
+ .container .row{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list  ul {
+    display: flex;
+    gap: 16px;
+    
+
+    
+}
+.list li a{
+    color: #101928;
+font-family: "poppins";
+display: flex;
+flex-wrap: wrap;
+}
+
+.logo img{
+ width: 30px;
+    
+}
+.logo a{
+    
+    color: #545BE8;
+text-align: center;
+font-family: "Roboto";
+}
+.auth{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.auth a{ 
+    padding: 5px 30px;
+    border-radius: 10.119px;
+border: 2px solid #545BE8;
+
+}
+.auth .login{
+
+    
+    color: #545BE8;
+font-family: "inter";
+}
+
+.auth .register{
+
+    
+    background-color: #545BE8;
+font-family: "inter";
+color: white;
+}
